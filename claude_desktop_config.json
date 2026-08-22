@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fantasy-pl": {
+      "command": "python3.12",
+      "args": ["-m", "fpl_mcp"],
+      "cwd": "/Users/nconroy/work/Fantasy-Premier-League/fantasy-pl-mcp"
+    }
+  }
+}

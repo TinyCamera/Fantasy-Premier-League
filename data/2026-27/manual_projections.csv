@@ -1,0 +1,28 @@
+# Manual projections for players with no usable Premier League history.
+# These are ESTIMATES, not data. The repo cannot model a player who has never
+# played in the league, so these come from scouting reports and the underlying
+# numbers they cite from the player's previous league, discounted for the drop
+# in output that almost always follows a move to the Premier League.
+#
+# Edit freely - draft_board.py reads this file and flags every player it touches
+# as MANUAL so an estimate is never mistaken for a projection built from data.
+#
+# Rule of thumb used: defensive output travels better than attacking output.
+# A midfielder's tackle and recovery volume carries across leagues far more
+# reliably than his expected goals, so defensive-contribution specialists get
+# more credit here than forwards arriving on the back of a big goal tally.
+id,name,projected,rationale
+569,Gonzalo García,105,6 goals in 9 La Liga starts for Real Madrid; Fulham's penalty taker and fills a vacant striker role
+565,Mamadou Sangaré,110,led Ligue 1 with 14.2 defensive contributions per 90; DefCon floor travels well
+305,Leif Davis,95,elite creator from left-back; only promoted player with real PL data (52pt in 2024-25)
+295,Oli McBurnie,95,17 Championship goals plus playoff winner; nailed starter on penalties for Hull
+152,Marco Palestra,95,most successful dribbles of any defender in Europe's top 10 leagues; wing-back minutes uncertain
+504,Luka Vušković,90,led Bundesliga defenders with 12.5 DefCon per 90, but projected 9.9 is below the defender threshold
+278,Charlie Hughes,90,best defensive-action rate of any promoted player; currently carrying an injury
+193,Haji Wright,90,Coventry talisman on penalties; injury flagged
+557,Christos Tzolis,90,17 goals 23 assists in Belgium, but Martinelli blocks the left wing and projections halve
+461,Bazoumana Touré,85,0.54 assists per 90 at Hoffenheim; must displace Barnes at a lower-scoring club
+175,Milan van Ewijk,85,attacking right-back with strong crossing volume for Coventry
+173,Bobby Thomas,85,centre-back with goal threat and defensive-contribution volume
+320,Chuba Akpom,70,budget Ipswich striker, unproven at this level
+53,Johan Manzambi,65,20 years old, introduction likely to be managed carefully by Villa

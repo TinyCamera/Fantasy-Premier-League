@@ -1,3 +1,8 @@
 .vscode
 __pycache__
 team_1518207_data23_24
+# third-party MCP server, cloned separately (rishijatia/fantasy-pl-mcp)
+fantasy-pl-mcp/
+
+# machine-local Claude Code permissions
+.claude/settings.local.json
